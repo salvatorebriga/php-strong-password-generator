@@ -2,7 +2,7 @@
 
 include 'function.php';
 
-$number = intval($_GET['number'] ?? 12);
+$number = intval($_GET['number']);
 
 if ($number < 4) {
     $number = 12;
